@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<title data-lang="page-title">Portfolio_Julia</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="Creating responsive and optimized web layouts">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230913183852">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+	<!-- Блок Preloader -->
+	<!-- <div class="preloader">
+    <div class="sk-chase">
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+      <div class="sk-chase-dot"></div>
+    </div>
+  </div> -->
+
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<div class="header__logo">
+						<picture><source srcset="img/Logo.webp" type="image/webp"><img src="img/Logo.png" alt="Logo"></picture>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".hero" class="menu__link" data-lang="menu-link-home">Home
+									+</a></li>
+							<li class="menu__item"><a href="#" data-goto=".about" class="menu__link" data-lang="menu-link-about">About</a></li>
+							<li class="menu__item"><a href="#" data-goto=".services" class="menu__link" data-lang="menu-link-services">Services</a></li>
+							<li class="menu__item"><a href="#" data-goto=".portfolio" class="menu__link" data-lang="menu-link-portfolio">Portfolio</a></li>
+						</ul>
+					</nav>
+					<div class="header__buttons">
+						<button class="header__btn" data-btn="en" aria-label="English language">En</button>
+						<button class="header__btn" data-btn="ua" aria-label="Українська мова">Ua</button>
+					</div>
+					<!-- <div class="header__contact-viber icon-tel"><a href="tel:+380965234808">+380(96)523-4808</a></div> -->
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__descr">
+						<!-- <div class="hero__socials">
+							<a class="icon-fb" href="https://uk-ua.facebook.com"></a>
+							<a class="icon-linkedin" href="https://ua.linkedin.com/"></a>
+							<a class="icon-email" href="mailto: nazarkevych.julk@gmail.com"></a>
+							<a class="icon-phone" href="tel:+380965234808"></a>
+						</div> -->
+						<h1 class="title hero__title _anim-items _anim-no-hide _anim-show-left">
+							<span data-lang="hero-title">My name is</span>
+							<span class="hero__name" data-lang="hero-my-name">Julia</span>
+							<span data-lang="hero-i-am"> and I am an</span>
+							<span class="hero__title-nowrap"><span class="hero__title-letter">H</span><span class="hero__title-letter">T</span><span class="hero__title-letter">M</span><span class="hero__title-letter">L</span></span><span data-lang="hero-profession">-developer</span>
+						</h1>
+						<div class="hero__photo-mobile" data-prlx-mouse data-prlx-a="10" data-prlx-cx="230" data-prlx-cy="500">
+							<picture><source srcset="img/me-2.webp" type="image/webp"><img src="img/me-2.png" alt="My photo" /></picture>
+						</div>
+						<p class="_anim-items _anim-no-hide _anim-show-left hero__subtitle" data-lang="hero-subtitle">
+							I create responsive and optimized web layouts that are
+							compatible with modern web browsers.
+						</p>
+						<a data-goto=".about" class="hero__btn-about btn" data-lang="hero-btn-about"><span class="icon-aboutMe"></span>Further Details on My Work</a>
+					</div>
+					<div data-prlx-mouse data-prlx-a="15" data-prlx-cx="180" data-prlx-cy="10000" class="hero__photo-full">
+						<picture><source srcset="img/Me.webp" type="image/webp"><img src="img/Me.png" alt="My photo" /></picture>
+					</div>
+				</div>
+			</section>
+
+			<section class="services">
+				<div class="services__container">
+					<div class="service__item _anim-items _anim-show-top _anim-no-hide">
+						<div class="service__image">
+							<picture><source srcset="img/services-3.webp" type="image/webp"><img src="img/services-3.png" loading="lazy" class="_anim-items _anim-no-hide _anim-show-opacity" alt="Website layout from design" /></picture>
+						</div>
+
+						<div class="service__descr _anim-items _anim-no-hide _anim-show-top">
+							<span class="service__name" data-lang="service-name-1">Website
+								Building from Design Template</span>
+							<p data-lang="service-descr-1">
+								Do you have a ready design that needs to be coded? I build
+								websites from scratch.
+							</p>
+							<button data-popup="#popup-1" class="btn service__btn" data-lang="service-btn-1" aria-label="Learn
+						    more">
+								Learn more
+							</button>
+						</div>
+					</div>
+					<div class="service__item _anim-items _anim-show-top _anim-no-hide">
+						<div class="service__image">
+							<picture><source srcset="img/services-1.webp" type="image/webp"><img src="img/services-1.png" loading="lazy" class="_anim-items _anim-no-hide _anim-show-opacity" alt="Adaptivity" /></picture>
+						</div>
+
+						<div class="service__descr _anim-items _anim-no-hide _anim-show-top">
+							<span class="service__name" data-lang="service-name-2">Adaptivity</span>
+							<p data-lang="service-descr-2">
+								Creating websites that can adapt and respond to different screen
+								sizes, providing optimal appearance and interaction for users.
+							</p>
+							<button data-popup="#popup-2" class="btn service__btn" data-lang="service-btn-2" aria-label="Learn
+						more">
+								Learn more
+							</button>
+						</div>
+					</div>
+					<div class="service__item _anim-items _anim-show-top _anim-no-hide">
+						<div class="service__image">
+							<picture><source srcset="img/services-2.webp" type="image/webp"><img src="img/services-2.png" loading="lazy" class="_anim-items _anim-no-hide _anim-show-opacity" alt="Style adjustments" /></picture>
+						</div>
+
+
+						<div class="service__descr _anim-items _anim-no-hide _anim-show-top">
+							<span class="service__name" data-lang="service-name-3">Style
+								Modification</span>
+							<p data-lang="service-descr-3">
+								Do you already have a website but need to make some changes?
+								Updating details to make web design more attractive and
+								effective according to your preferences.
+							</p>
+							<button data-popup="#popup-3" class="btn service__btn" data-lang="service-btn-3" aria-label="Learn
+							more">
+								Learn more
+							</button>
+						</div>
+					</div>
+					<div class="service__item _anim-items _anim-show-top _anim-no-hide">
+						<div class="service__image">
+							<picture><source srcset="img/services-4.webp" type="image/webp"><img src="img/services-4.png" loading="lazy" class="_anim-items _anim-no-hide _anim-show-opacity" alt="Adding elements" /></picture>
+						</div>
+
+						<div class="service__descr _anim-items _anim-no-hide _anim-show-top">
+							<span class="service__name" data-lang="service-name-4">Addition</span>
+							<p data-lang="service-descr-4">
+								Adding various functional elements such as buttons, links, input
+								forms, sliders, modals, sections, etc.
+							</p>
+							<button data-popup="#popup-4" class="btn service__btn" data-lang="service-btn-4" aria-label="Learn
+							more">
+								Learn more
+							</button>
+						</div>
+					</div>
+					<div class="service__item _anim-items _anim-show-top _anim-no-hide">
+						<div class="service__image">
+							<img src="img/icones-2/pictures.svg" loading="lazy" class="_anim-items _anim-no-hide _anim-show-opacity" alt="Finalization" />
+						</div>
+
+						<div class="service__descr _anim-items _anim-no-hide _anim-show-top">
+							<span class="service__name" data-lang="service-name-5">Refinement</span>
+							<p data-lang="service-descr-5">
+								Fixing errors and bugs such as incorrect element display,
+								placement issues, broken links, changing element positions on
+								the page, and improving and correcting content.
+							</p>
+							<button data-popup="#popup-5" class="btn service__btn" data-lang="service-btn-5" aria-label="Learn
+							more">
+								Learn more
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<h2 class="about__title title _anim-items _anim-no-hide _anim-show-top">
+						<span data-lang="about-title">About</span>
+						<span data-lang="about-my-work"> My work</span>
+					</h2>
+
+					<div class="about__text _anim-items _anim-no-hide _anim-show-top">
+						<p class="about__descr" data-lang="about-descr-1">
+							I always meet deadlines and make timely adjustments if needed.
+							When estimating the completion time for a task, I always allow
+							for a buffer in case of unforeseen circumstances, and I take
+							deadlines seriously. If I realize that I made an error in
+							estimating the timeline, I will promptly notify you.
+						</p>
+						<p class="about__descr" data-lang="about-descr-2">
+							In order for your website to provide the most convenient viewing
+							experience for users on different devices, whether it's a mobile
+							phone or a widescreen monitor, it should look different.
+						</p>
+						<p data-lang="about-descr-3" class="about__descr">
+							For this, you need to provide me with mockups for different
+							versions of responsiveness. Otherwise, the responsiveness will
+							be done at my discretion as agreed upon.
+						</p>
+						<p data-lang="about-descr-4" class="about__descr">
+							Thoughtful placement of code fragments on a webpage, proper use
+							of tags, clear naming of classes and IDs.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="portfolio">
+				<div class="portfolio__container">
+					<div data-showmore="items" class="block">
+						<ul data-showmore-content="2" class="block__content">
+							<li>
+								<div class="portfolio__item portfolio__item_text">
+									<h3 class="_anim-items _anim-show-top _anim-no-hide title portfolio__title">
+										<span data-lang="portfolio-title-my">My</span>
+										<span data-lang="portfolio-title-portfolio">
+											Portfolio</span>
+									</h3>
+									<p class="_anim-items _anim-show-top portfolio__descr" data-lang="portfolio-descr">
+										You can check out some of my works
+									</p>
+								</div>
+							</li>
+							<li class="_anim-items _anim-show-opacity _anim-no-hide">
+								<a tabindex="0" target="_blank" href="https://julka-naz.github.io/Orabel/">
+									<div class="portfolio__item">
+										<video src="files/Orabel.mp4" aria-label="Click to go to the website 
+										'Orabel, the photographer portfolio' " data-lang="сlick-to-go-1">
+											Click to go to the site 'Orabel, the photographer
+											portfolio'
+										</video>
+									</div>
+								</a>
+							</li>
+							<li class="_anim-items _anim-show-opacity _anim-no-hide">
+								<a target="_blank" href="https://julka-naz.github.io/Boosted/">
+									<div class="portfolio__item">
+										<video tabindex="0" src="files/Boosted.mp4" aria-label="Click to go to the website 'Scooters and Boardies'" data-lang="сlick-to-go-2">
+											Click to go to the site 'Boosted, Scooters and boardies'
+										</video>
+									</div>
+								</a>
+							</li>
+							<li class="_anim-items _anim-show-opacity _anim-no-hide">
+								<a target="_blank" href="https://julka-naz.github.io/Bakery/">
+									<div class="portfolio__item">
+										<video tabindex=" 0" src="files/Bakery.mp4" aria-label="Click to go to the website 
+										'Bakery' " data-lang="сlick-to-go-3">
+											Click to go to the site 'Bakery'
+										</video>
+									</div>
+								</a>
+							</li>
+							<li class="_anim-items _anim-show-opacity _anim-no-hide">
+								<a target="_blank" href="https://julka-naz.github.io/Benhome/">
+									<div class="portfolio__item">
+										<video tabindex="0" src="files/Benhome.mp4" aria-label="Click to go to the website 
+										'Benhome, architectural agency' " data-lang="сlick-to-go-4">
+											Click to go to the site 'Benhome, architectural agency'
+										</video>
+									</div>
+								</a>
+							</li>
+							<li class="_anim-items _anim-show-opacity _anim-no-hide">
+								<a target="_blank" href="https://julka-naz.github.io/Photography_Portfolio/">
+									<div class="portfolio__item">
+										<video tabindex="0" src="files/Portfolio-photographer.mp4" aria-label="Click to go to the website 
+											'Photographer's portfolio' " data-lang="сlick-to-go-5">
+											Click to go to the site 'Photographer's portfolio'
+										</video>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://julka-naz.github.io/Brands/">
+									<div class="portfolio__item">
+										<video tabindex="0" src="files/Brands.mp4" aria-label="Click to go to the site 'Stylish clothes with delivery'" data-lang="сlick-to-go-6" preload="metadata">
+											Click to go to the website 'Stylish clothes with
+											delivery'
+										</video>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://julka-naz.github.io/Carpathions/">
+									<div class="portfolio__item">
+										<video tabindex="0" src="files/Carpations.mp4" aria-label="Click to go to the website 'Travels to the Carpathians'" data-lang="сlick-to-go-7" preload="metadata">
+											Click to go to the site 'Travels to the Carpathians'
+										</video>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://julka-naz.github.io">
+									<div class="portfolio__item">
+										<video tabindex="0" src="files/Atelier.mp4" aria-label="Click to go to the website 'Custom-made hats'" data-lang="сlick-to-go-8" preload="metadata">
+											Click to go to the site 'Custom-made hats'
+										</video>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://julka-naz.github.io/Yoga/">
+									<div class="portfolio__item">
+										<video tabindex="0" src="files/yoga.mp4" aria-label="Click to go to the website 'Yoga lessons'" data-lang="сlick-to-go-9" preload="metadata">
+											Click to go to the site 'Yoga lessons'
+										</video>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://julka-naz.github.io/Hostel/">
+									<div class="portfolio__item">
+										<video tabindex="0" src="files/Hostel.mp4" aria-label="Click to go to the website 'Animal shelter'" data-lang="сlick-to-go-10" preload="metadata">
+											Click to go to the site 'Animal shelter'
+										</video>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href="https://julka-naz.github.io/Covid-19/">
+									<div class="portfolio__item">
+										<video tabindex="0" src="files/Corona.mp4" aria-label="Click to go to the website 'Covid-2019'" data-lang="сlick-to-go-11" preload="metadata">
+											Click to go to the site 'Сoronavirus'
+										</video>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<button hidden data-showmore-button type="button" class="block__more btn portfolio__btn">
+							<span data-lang="portfolio-btn-1">View all</span>
+							<span data-lang="portfolio-btn-2">Тo hide</span>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="noname">
+				<div class="noname__container">
+					<div class="noname__left-column _anim-items _anim-show-left _anim-no-hide">
+						<div class="noname__thumb">
+							<picture><source srcset="img/thumb.webp" type="image/webp"><img src="img/thumb.png" loading="lazy" alt="my photo" /></picture>
+						</div>
+						<q data-lang="noname-quote">A well-stated problem is half-solved. Charles Kettering</q>
+						<cite data-lang="noname-cite-name">Charles Kettering</cite><span data-lang="noname-cite-profession">Inventor, engineer</span>
+					</div>
+					<div class="noname__right-column _anim-items _anim-show-top _anim-no-hide" data-lang="noname-descr">
+						The clearer you formulate your requirements and expectations for
+						the project, the better I will understand the essence of the task,
+						and accordingly, the execution will be more accurate and
+						efficient, avoiding misunderstandings and improving the quality of
+						the results.
+					</div>
+				</div>
+			</section>
+
+			<section class="tools">
+				<div class="tools__container">
+					<h3 class="tools__title title _anim-items _anim-show-left _anim-no-hide">
+						<span data-lang="tools-title-1">Tools</span>
+						<span data-lang="tools-title-2"> that I use</span>
+					</h3>
+
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<dfn data-info="Figma is a powerful web-based design tool"><img src="img/tools/figma.svg" alt="Figma is a web-based design tool" loading="lazy" /></dfn>
+							</div>
+							<div class="swiper-slide">
+								<dfn data-info="Code editor VsCode"><img src="img/tools/vs-code.svg" alt="Code editor VsCode" loading="lazy" /></dfn>
+							</div>
+							<div class="swiper-slide">
+								<dfn data-info="HyperText Markup Language"><img src="img/tools/HTML.svg" alt="HyperText Markup Language" loading="lazy" /></dfn>
+							</div>
+							<div class="swiper-slide">
+								<dfn data-info="Cascading Style Sheets"><img src="img/tools/CSS3.svg" alt="Cascading Style Sheets" loading="lazy" /></dfn>
+							</div>
+							<div class="swiper-slide">
+								<dfn data-info="The Sass preprocessor"><img src="img/tools/sass.svg" alt="the Sass preprocessor" loading="lazy" /></dfn>
+							</div>
+							<div class="swiper-slide">
+								<dfn data-info="JavaScript for
+								animations, parallax, pop-up, swiper, GSAP and others"><img src="img/tools//javascript.svg" alt="JavaScript" loading="lazy" /></dfn>
+							</div>
+							<div class="swiper-slide">
+								<dfn data-info="Checks the markup validity"><img src="img/tools/w3c.svg" alt="W3C Validator" /></dfn>
+							</div>
+							<div class="swiper-slide">
+								<dfn data-info="Gulp task manager for optimization and minification"><img src="img/tools/gulp.svg" alt="Gulp for optimization and minification" loading="lazy" /></dfn>
+							</div>
+							<div class="swiper-slide">
+								<dfn data-info="PageSpeed ​​​​Insights evaluates the loading speed of a site"><img src="img/tools/google-pagespeed.svg" loading="lazy" alt="PageSpeed ​​​​Insights" /></dfn>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+
+				<div class="footer__coffee _anim-items _anim-no-hide _anim-show-top">
+					<p data-lang="footer-descr">I also consumed a lot of coffee to complete this layout, so I'm confident that
+						coffee can be considered one
+						of the main tools of a web developer</p>
+					<div data-prlx-mouse class="footer__coffee-anim">
+						<div class="footer__coffee-image"><picture><source srcset="img/coffee.webp" type="image/webp"><img src="img/coffee.png" alt="coffee" class="footer__coffee-img"></picture></div>
+						<div class="footer__coffee-vapour">
+							<span style="--i:1;"></span>
+							<span style="--i:3;"></span>
+							<span style="--i:10;"></span>
+							<span style="--i:5;"></span>
+							<span style="--i:8;"></span>
+							<span style="--i:2;"></span>
+							<span style="--i:6;"></span>
+							<span style="--i:9;"></span>
+							<span style="--i:11;"></span>
+							<span style="--i:4;"></span>
+							<span style="--i:7;"></span>
+						</div>
+					</div>
+				</div>
+
+				<!-- <div class="footer__socials">
+			<a class="icon-fb" href="https://uk-ua.facebook.com"></a>
+			<a class="icon-linkedin" href="https://ua.linkedin.com/"></a>
+			<a class="icon-email" href="mailto: nazarkevych.julk@gmail.com"></a>
+			<a class="icon-phone" href="tel:+380965234808"></a>
+		</div> -->
+				<div class="footer__copyright">© Portfolio 2023 | Nazarkevyh Julia</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup-1" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close" aria-label="Close popup">✖</button>
+				<div class="popup__text" data-lang="popup-1">
+					Includes several stages. Defining the main requirements and goals of the project.
+					Developing the HTML structure of the website using semantic tags, taking into account SEO and
+					accessibility requirements.
+					Integrating additional functionality, such as forms, animations, script integration, and other
+					extensions.
+					Testing and debugging the website to ensure it meets the requirements and functions properly.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-2" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close" aria-label="Close popup">✖</button>
+				<div class="popup__text" data-lang="popup-2">
+					Adaptive web design is a technique for developing websites that ensure proper display of content
+					on different screens and devices, including desktop computers, laptops, tablets, and mobile
+					devices. The main idea of adaptive web design is to provide an optimal appearance and interaction
+					of the website on different screen sizes without the need to create separate versions of the
+					website for each device. This is achieved using techniques such as media queries, grid systems, and
+					Flexbox.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-3" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close" aria-label="Close popup">✖</button>
+				<div class="popup__text" data-lang="popup-3">
+					Making changes to the styling, color palette, resizing, font types, spacing and borders, as well as adding
+					animations, transition effects, responsiveness, and more.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-4" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close" aria-label="Close popup">✖</button>
+				<div class="popup__text" data-lang="popup-4">
+					Updating the content with more relevant and adding new content that meets the needs of your target audience
+					and reflects current topics and trends in your industry.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-5" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close" aria-label="Close popup">✖</button>
+				<div class="popup__text" data-lang="popup-5">
+					The task of refining a website for a web designer typically involves making the website more modern,
+					efficient, and user-centric. This includes optimizing images, code, and resources for improved performance
+					and page loading speed.
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230913183852"></script>
+
+</body>
+
+</html>
